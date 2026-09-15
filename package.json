@@ -1,0 +1,13 @@
+{
+  "name": "bartek-robocze",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PHP learning project - dev tooling only (git hooks). The app itself is PHP, see README.md.",
+  "scripts": {
+    "prepare": "husky",
+    "check-branch": "sh .husky/check-branch-name.sh"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
