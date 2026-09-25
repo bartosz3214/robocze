@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+git <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@ for ($row = 1; $row <= 10; $row++) {
     for ($col = 1; $col <= 10; $col++) {
         echo "<td>" . ($row * $col) . "</td>";
     }
-
+git
     echo "</tr>";
 }
 
