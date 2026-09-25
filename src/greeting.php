@@ -9,11 +9,11 @@
     <?php
     $hour = (int) date('G');
     if ($hour >= 12 && $hour < 18) {
-        echo "Dobry wieczór!";
+        echo "Dobry dzień!";
     } elseif ($hour >= 18 && $hour < 22) {
         echo "Dobry wieczór!";
     } elseif ($hour >= 22 || $hour < 6) {
-        echo "Dobry wieczór!";
+        echo "Dobranoc!";
     } else {
         echo "Dobry poranek!";
     }
